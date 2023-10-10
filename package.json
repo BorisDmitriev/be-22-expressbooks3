@@ -1,0 +1,30 @@
+{
+    "name": "be-mongoose-express-books",
+    "version": "1.0.0",
+    "description": "## Description",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest --forceExit",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/herbertnikolajewskidci/BE-Mongoose-Express-Books.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/herbertnikolajewskidci/BE-Mongoose-Express-Books/issues"
+    },
+    "homepage": "https://github.com/herbertnikolajewskidci/BE-Mongoose-Express-Books#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mongoose": "^7.2.3"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "nodemon": "^2.0.22",
+        "supertest": "^6.3.3"
+    }
+}
